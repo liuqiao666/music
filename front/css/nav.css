@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  padding:0px;
+  margin:0px;
+}<!---->
+body{
+	  font: 12px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+     /* text-align:center;*/
+}
+
+#nav{
+  width:100%;
+  height:70px;
+  color:#000;/*导航条字体颜色*/
+  font-size:18px;
+  margin:0px auto;
+  background-color:rgb(240,250,240);
+  position:fixed;/*固定作用*/
+  top:0px;
+  left:0px;
+  /*ie6下样式，加下划线表示只针对ie6 的hack */
+  _position:absolute;/* 把导航栏位置定义为绝对位置  关键*/
+  _top:expression(documentElement.scrollTop + "px"); /* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+  z-index:9999; /* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+  text-align:left;
+}
+#nav a{
+  color:#000;/*字体颜色*/
+  text-decoration:none;
+}
+.menu1{
+  width:170px;
+  margin:0px 0px 0px 200px;/*上、右、下、左*/
+  padding:0px 0px 0px 0px;/**/
+  overflow:hidden;
+  float:left;
+}
+.menu2{
+  width:100px;
+  height:70px;
+  margin:0px 0px 0px 0px;/*上、右、下、左*/
+  text-align:center;
+  padding:20px 0px 0px 0px;/*上  */
+  overflow:hidden;
+  cursor:hand;
+  float:left;
+}
+.menu3{
+  width:200px;
+  height:70px;
+  color:#999999;/*导航条字体颜色*/
+  padding:15px 0px 0px 0px;/*内容和其边框之间的空间。*/
+  overflow:hidden;/*剪裁溢出元素*/
+  cursor:point;/*光标显示形态*/
+  float:left;
+}
+.menu4{
+  width:50px;
+  height:70px;
+  margin:0px 0px 0px 70px;/*上、右、下、左*/
+  color:#999999;/*导航条字体颜色*/
+  padding:20px 0px 0px 0px;/*内容和其边框之间的空间。*/
+  overflow-y:hidden;/*剪裁溢出元素*/
+  cursor:point;/*光标显示形态*/
+  display:inline;
+  float:left;
+}
+#nav a:hover {
+	color:#999;
+}
+#nav a:active {
+	border: none;
+}
+.form{
+	position:relative;
+	}
+.search{ height:30px;
+	width:200px;
+	background-color:#FFF;
+	border:2px solid #FFF;
+	border-radius:3px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-indent: 30px;/*使提示文字在图片右边*/
+	}
+.button{
+	position:absolute;
+	left:3px;
+	top:8px;
+	cursor: pointer;/**/
+	border: none;
+	background:url(../images/搜索.png) no-repeat;
+	text-indent: 100%;
+	}	
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.dropdown {
+    display: inline-block;
+	margin-top:20px;
+	border-bottom-color:#3F0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+		font-size:16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:rgb(245,245,245);/*浅灰色*/}
+
+.main{ margin-top:90px;
+	
+	margin-left:170px;
+	background-color:#FFF;
+	width:75%;
+	padding:20px;
+	border-radius:5px;
+	border: 1px solid #CFD4D7;
+	height:auto;
+	}
+.information{ width:100%;
+	height:auto;
+	padding-top:20px;
+	overflow:hidden;
+	}
+.head-img{
+	float:left;
+	overflow:hidden;
+	margin-right:20px;
+	position: relative;
+	}	
+.information .head-img img{
+	width:200px;
+	height:200px;
+	display: block;
+	}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.head-img:hover .overlay {
+  opacity: 1;
+}	
+.xiugai{
+	float:right;
+	}
+/*按钮*/
+.suggest_input, .suggest_input:focus {/*修改按钮*/
+    background:url(../images/bg_sprit2.gif) -129px -536px no-repeat;
+    width: 67px;
+}
+.suggest_input, .suggest_input:focus {
+    height: 27px;
+    color:#fff;/*白色*/
+    border: 0;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-bottom: 2px; 
+}
+	
+.bigtext {
+    font-family: 'Hiragino Sans GB','Microsoft Yahei';
+	padding: 5px;
+	margin-left:210px;
+	width:100%;
+	border-bottom:1px solid #E6E9EB;
+	font-size:18px;
+	line-height:40px;
+}
+.information ul li {
+    line-height: 22px;
+	font-size:16px;
+	margin-top:5px;
+}	
+.information p{
+	text-align:left;
+	font-size:16px;
+	margin-top:10px;
+	}	
+	
+.collect{
+	width:100%;
+	max-height:300px;
+	min-height:100px;/*最小高度*/
+	overflow:hidden;
+	position: relative;
+	}	
+	
+hr{ width:100%;
+	color:#f60;/*黄色*/
+	}
+	
+h2{	font-size: 14px;
+	font-weight: normal;
+	color: #f60;
+	line-height: 2.5;
+	padding-left: 5px;
+	text-align:left;
+	}	
+.poo15{
+	padding-top:5px;
+	}	
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table.track_list {
+    font-size: 12px;
+    width: 100%;
+}
+
+table.track_list td.chkbox {
+    width: 20px;
+    vertical-align: middle;
+  
+}
+
+table.track_list td {
+    border-bottom: 1px #ebebeb solid;/*表格的下横线*/
+    padding: 6px 0;
+    *padding: 5px 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+    vertical-align: middle;
+}
+ input, select, textarea {
+    font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+table.track_list td.song_name {
+    color:#3366cc;/*青色*/
+    width: 300px;
+    padding: 0 5px;
+    *padding: 2px 5px 0 5px;
+    word-break: break-all;
+}
+
+table.track_list td.player_via {
+    font-size: 11px;
+    color: #bbb;
+}/*没有明显效果*/
+
+table.track_list td.song_act {
+    width: 30px;
+    text-align: center;
+}
+
+/*包含小图标的div的class*/
+.song_do {
+    margin-left: 8px;
+    _margin: 0;
+}
+
+a.song_play {/*试听*/
+    background:url(../images/song_icon.gif) 0 0 no-repeat;
+}
+a.song_play, a.song_digg, a.song_download, a.song_toclt, a.song_tel {
+    float: left;
+    *display: inline;
+    width: 16px;
+    height: 17px;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999em;
+    margin-left: 8px;
+}
+a {
+    text-decoration: none;
+    color: #3366cc;
+    cursor: pointer;
+}
+
+a.song_digg {/*分享*/
+    background:url(../images/song_icon.gif) -16px 0 no-repeat;
+}
+
+a.song_toclt {/*添加到收藏*/
+    background:url(../images/song_icon.gif) -48px 0 no-repeat;
+}
+
+/*删除*/
+table.track_list td.private_act {
+    padding-left: 10px;
+    width: 5%;
+}
+a.removeIT {
+    display: block;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    background:url(../images/close.gif) 0 -26px no-repeat;
+    text-indent: -999em;
+}
+
+
+
+
+.p_more {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 12px;
+    color: #bbb;
+}
+.p_more a {
+    font-size: 12px;
+    color: #7e7e7e;
+    background:url(../images/icons.gif) right -128px no-repeat;
+    padding-right: 12px;
+}
+
+/*期刊*/
+
+.blank40 {
+    margin-top: 40px;
+}
+.pool10 {
+    padding-top: 10px;
+}
+#p_charts .chart_artsit {
+    width: 440px;
+    float: left;
+}
+.chart_artsit_item{
+    position: relative;
+    min-height: 55px;
+    _height: 55px;
+}
+.chart_artsit_item a.ico_radio {
+    font-size: 14px;
+    background:url(../images/fm_sprite.gif) 0 3px no-repeat;
+    padding-left: 20px;
+    position: absolute;
+    top: 20px;
+    left:70px;
+    line-height: 1.4;
+}
+.chart_artist_item a.buddy {
+    position: absolute;
+}
+
+.pool10 .chart_artsit li{ 
+	border-bottom: 1px #ebebeb solid;/*表格的下横线*/}
+
+.pool10 .chart_artsit_item .private_act {
+	position: absolute;
+    top: 20px;
+    right:25px;
+    line-height: 1.4;	
+}
+
+
+
+
+
+
+
+
+
+/*评论*/
+.suggest_1 {/*blank40*/
+    margin-top: 40px;
+}
+.suggest h3 {/*comments_wall标题*/
+    font-size: 14px;
+	padding-left:20px;
+    line-height: 30px;
+    color:#f60;/*橙色*/
+	font-size: 14px;
+    line-height: 2;
+	position:relative
+}
+.suggest_2 {/*common_sec 包含输入框的div外的div*/
+    border-top: 1px #ddd solid;
+	/*border-bottom: 1px #ddd solid;*/
+}
+.suggest_form {/*wall_post form表单外的div*/
+    background:#f9f9f9;/*白色*/
+    padding: 20px;
+}
+
+.suggest .auto {/*textarea外的div*/
+    margin-left: 60px;
+	
+}
+.suggest textarea {
+    width: 98.5%;
+    height: 100px;
+}
+textarea {
+    font: normal 12px/1.5em Tahoma, simsun;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: break-word;/*在长单词或 URL 地址内部进行换行。*/
+	border-color: #7C7C7C #ccc #ccc #ddd;
+	border-style: solid;
+    border-width: 1px;
+    line-height: 1.2;
+    padding: 2px;
+}
+textarea:focus{/*点击时边框颜色*/
+	border-color:#F63;/*橙色*/
+	}
+/*按钮*/
+.suggest_form p.act {
+    float: right;
+    margin-top: 10px;
+}
+.suggest_form p.act span.suggest_counts {/*计数*/
+    font-size: 14px;
+    color:#999;/*深灰色*/
+    margin-right: 20px;
+}
+.suggest_counts {
+    line-height: 20px;
+}
+span.suggest_counts em {/*检查输入字数的数字的颜色*/
+    font-weight: bold;
+}
+.suggest_input, .suggest_input:focus {/*发表评论按钮*/
+    background:url(../images/bg_sprit2.gif) -129px -536px no-repeat;
+    width: 67px;
+}
+.suggest_input, .suggest_input:focus {
+    height: 27px;
+    color:#fff;/*白色*/
+    border: 0;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-bottom: 2px; 
+}

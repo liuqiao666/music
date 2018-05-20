@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:rgb(245,245,245);/*浅灰色*/}
+
+.main{ 
+	margin-top:90px;
+	margin-left:100px;
+	text-align:center;
+	width:85%;
+	height:auto;
+	}
+
+/*中间上半部分 标签*/	
+.title{
+	font-size:25px;
+	color:#000;
+	padding-left:25px;
+	display:inline-block;
+	margin-right:40px;
+	}
+.main .main-below-right a{ 
+	display:inline-block;
+	margin-right:20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size:15px;
+	color:#999;
+	padding-top:30px;
+	}
+.main .main-below-right a:hover{
+	color:#CCC;;
+	}
+
+	
+/*中间下半部分*/
+.main-below{ 
+	overflow: hidden;
+	position: relative;
+	margin: 10px auto 60px;
+	border: 1px solid #CFD4D7;
+	border-radius: 3px;
+	/*margin-left:20px;
+	margin-top:10px;*/
+	background-color:#FFF;/*白色*/
+	}
+/*中间下半部分左边样式*/	
+.main-below-left{
+	float: left;
+	width: 179px;
+	height:auto;
+	background-color:#FFF;/*白色*/
+	}	
+.bigtext {
+    font-family: 'Hiragino Sans GB','Microsoft Yahei';
+	font-weight: normal;
+	padding: 0;
+}	
+#type {
+	padding-top:20px;
+}
+
+#type h3 {
+	padding-top:10px;
+}
+
+#type h3 {
+	margin:0 30px;
+	border-bottom:1px solid #E6E9EB;
+	font-size:18px;
+	line-height:40px;
+	text-align:center;
+}
+
+#type li {
+	position:relative;
+	margin-top:20px;
+	text-align:center;
+	line-height:24px;
+
+}
+
+#type b {
+	display:block;
+	width:48px;
+	height:48px;
+	margin:0 auto 5px;
+	background:url(../images/periodical/type.png) no-repeat;/*碟片*/
+}
+ a{
+  text-decoration:none;
+}
+.bigtext a:hover{
+	color:#333;
+	}
+
+#type .new b{
+    background-position: -96px -240px;
+}
+#type .hot b{
+    background-position: -48px -240px;
+}
+#type .pop/*:hover*/ b{
+    background-position: 0 -240px;
+}
+
+.ts_seled { 
+  color:#33F; /*选中后 蓝色*/
+} 
+.ts_sel { 
+  color:#999; /*选中前 灰色*/
+} 
+
+/*中右主体*/
+.main-below-right{
+    margin-left: 200px;
+}
+.main-below-right-down/*主体*/
+{
+	width:100%;
+	height:auto;
+
+}
+.main-below-right h3{margin:0px 30px;
+	
+	border-bottom:1px solid #E6E9EB;
+	font-size:18px;
+	line-height:40px;
+	text-align:center;
+	padding-top:10px;
+}
+

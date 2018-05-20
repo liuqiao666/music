@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  padding:0px;
+  margin:0px;
+}<!---->
+body{ background-color: rgb(245,245,245);
+	  font: 12px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+     /* text-align:center;*/
+}
+/*.ul{ background-color:#E3E3E3;导航条颜色：灰*/
+	/*width:100%;
+	height:70px;
+	text-align:center;}*/
+/*.li{
+  background-color:whith;*/
+  /*font-size:18px;字体大小
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+}*/
+
+/*li:hover{ background-color:#999;}
+li:hover{ background-color: rgba(0, 0, 0, 0.1);}*/
+
+#nav{
+  width:100%;
+  height:70px;
+  font-size:18px;
+  margin:0px auto;
+  /*background-color:#E3E3E3;灰色*/
+  position:fixed;/*固定作用*/
+  top:0px;
+  left:0px;
+  /*ie6下样式，加下划线表示只针对ie6 的hack */
+  _position:absolute;/* 把导航栏位置定义为绝对位置  关键*/
+  _top:expression(documentElement.scrollTop + "px"); /* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+  z-index:9999; /* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+  text-align:left;
+}
+a{
+  color:#000;/*字体颜色*/
+  text-decoration:none;
+}
+.menu1{
+  width:170px;
+  margin:0px 0px 0px 200px;/*上、右、下、左*/
+  /*background-color:#000;导航条颜色*
+  color:#999999;/*导航条字体颜色*/
+  /*border-left: 1px solid #FFF;左边边框线条*/
+  padding:0px 0px 0px 0px;/**/
+  text-align:center;
+  overflow-y:hidden;
+  cursor:hand;
+  display:inline;
+  list-style:none;
+  font-weight:bold;
+  float:left;
+}
+.menu2{
+  width:100px;
+  height:70px;
+  margin:0px 0px 0px 0px;/*上、右、下、左*/
+  /*background-color:#000;导航条颜色*/
+  color:#000;/*导航条字体颜色*/
+  text-align:center;
+  /*border-left: 1px solid #FFF;左边边框线条*/
+  padding:19px 0px 0px 0px;/**/
+  overflow-y:hidden;
+  cursor:hand;
+  display:inline;
+  list-style:none;
+  font-weight:bold;
+  float:left;
+}
+.menu3{
+  width:200px;
+  height:70px;
+  margin:0px 0px 0px 0px;/*上、右、下、左*/
+  /*background-color:#000;导航条颜色*/
+  color:#999999;/*导航条字体颜色*/
+  /*border-left: 1px solid #FFF;左边边框线条*/
+  padding:19px 0px 0px 0px;/*内容和其边框之间的空间。*/
+  overflow-y:hidden;/*剪裁溢出元素*/
+  cursor:point;/*光标显示形态*/
+  display:inline;
+  float:left;
+}
+.menu4{
+  width:100px;
+  height:70px;
+  margin:0px 0px 0px 150px;/*上、右、下、左*/
+  /*background-color:#000;导航条颜色*/
+  color:#999999;/*导航条字体颜色*/
+ /*border-left: 1px solid #FFF;左边边框线条*/
+  /*border-right: 1px solid #FFF;*/
+  padding:19px 0px 0px 0px;/*内容和其边框之间的空间。*/
+  overflow-y:hidden;/*剪裁溢出元素*/
+  cursor:point;/*光标显示形态*/
+  display:inline;
+  float:left;
+}
+
+
+a:hover {
+	color:#999;
+}
+
+.wrapper{
+	padding-top: 10px;
+	background-color:#FFF;
+	width:100%;
+	margin-top:70px;
+	/*  margin: 0 auto;        方框四边与其他元素之间的空白距离*/
+	/*   padding-bottom:0;     边框与内部元素的距离*/
+}
+
+.main{ 
+	width:100%;
+	height:auto;
+	}
+
+.main-left{  /*中间左边部分的外圈大框*/
+	width:65%;
+	height:auto;
+	margin-left:100px;
+	margin-top:10px;
+	background-color:#FFF;/*白色*/
+	font-size:20px;
+	float:left;
+	border-radius:5px;
+	border:1px solid #999;
+	}
+.main-left1{/*中间左边部分第一个标题框*/
+	 /*background-color:rgb(240 250 240);
+	background-color:#1B9E03;*/
+	height:30px;
+	border-bottom:1px solid #999;
+	padding:3px;
+	margin:15px;/*元素边框与周围的距离*/
+}
+.main-left2{
+	max-height:300px;
+	height:280px;/*中间左边第一个内容框*/
+	max-height:300px;
+	/*background-color:#6FF;荧光蓝色*/
+	}	
+.main-left2-1{ /*图片+文字div */
+	width:22%;
+	height:90%;
+	font-size:12px;
+	overflow:hidden;
+	padding-left:25px;
+	float:left;/*使图片横排排列*/
+	}	
+.main-left2-1-all/*图片和隐藏的div*/
+{
+	width:100%;
+	height:70%;
+	overflow:hidden;
+	}
+.main-left2-1-picture{ /*图片div*/
+	width:186px;
+	height:170px;	
+	overflow:hidden;
+	/*background-color:#FF0;黄色*/
+	}
+.main-left2-1-picture2{/*隐藏的div*/
+	width:186px;
+	height:170px;
+	opaction:0.1;
+	overflow:hidden;
+	cursor:pointer;
+	background-color:#000;
+	}
+.main-left2-1 .main-left2-1-picture img{
+	width:186px;
+	height:186px;
+	}
+.main-left2-1 .main-left2-1-picture:hover img{
+	background-color:#000;
+	 opacity: 0.5;
+	cursor:pointer;
+	}
+/*播放按钮*/	
+.index_play{
+	background:url(../images/play_icon.gif) 0 0 no-repeat;
+	border:none;
+	cursor:pointer;
+	opactiy:0.1;
+	}
+/*歌曲信息*/
+.main-left2-1-text{
+	margin-top:10px;
+	height:30%;
+	font: 12px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	}
+.main-left2 main-left2-1-text p{
+	overflow: hidden;
+	height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	}
+.music-name{ 
+	margin-top:10px;
+	font-size:18px;
+	color:#000000;}
+.musicer-name{
+	float: left; 
+	margin-top:5px;
+	font-size:14px;
+	color:#000000;}
+
+/*右边*/
+.main-right{ 
+	width:20%;/*中间右边部分的外圈大框*/
+	height:500px;
+	margin-right:80px;
+	float:right;
+	margin-top:0px;}
+
+.main-right2{
+	height:auto;/*右边第一个内容框*/
+	margin:10px;
+	width:80%;
+	border:1px solid #999;
+	border-radius:5px;/*圆角*/
+	padding:10px;/*元素与其边框的距离*/
+	background-color:#FFF;/*灰白色*/
+	}	
+#p_charts .chart_artsit {
+    width: 640px;
+    float: left;
+}
+.chart_artsit_item-first{
+    position: relative;
+    min-height: 55px;
+    _height: 55px;
+}
+.chart_artsit_item-first a.ico_radio-first {
+    font-size: 14px;
+    background:url(../images/fm_sprite.gif) 0 3px no-repeat;
+    padding-left: 20px;
+    position: absolute;
+    top: 20px;
+    left:70px;
+    line-height: 1.4;
+}
+.chart_artist_item-first a.buddy-first {
+    position: absolute;
+	}
+.main-left2-first .chart_artsit-first li{ 
+	border-bottom: 1px #ebebeb solid;/*表格的下横线*/
+	padding-top: 10px;
+	}
+.main-left2-first .chart_artsit_item-first .private_act-first {
+	position: absolute;
+    top: 20px;
+    right:25px;
+    line-height: 1.4;	
+}
+.main-left1-first{/*中间右边部分第一个标题框*/
+	border-bottom:1px solid #999;
+	padding:3px;
+	/*background-color:rgb(240 250 240);*/
+	height:30px;
+	/*margin:10px;元素边框与周围的距离*/
+}	
+.main-left2-first{
+	padding-top:10px;
+	height:290px;/*中间左边第一个内容框*/
+	}
+.main-left-text{ 
+	font-size:20px;
+	font:'黑体';
+	}
+
+/*底部*/
+.bottom{ background-color:#EBEBEB;/*灰白色*/
+	width:100%;
+	height:100px;
+	margin-top:30px;
+	font-size:24px;
+	float:left;}

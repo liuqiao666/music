@@ -1,0 +1,152 @@
+
+@charset "utf-8";
+/* CSS Document */
+body{background-color:rgb(245,245,245);/*浅灰色*/}
+.main{ 
+	width:100%;
+	height:auto;
+	/*background-color:#60C;紫色*/
+	}
+.main-left{  	/*中间左边部分的外圈大框*/
+	width:65%;
+	height:auto;
+	margin-left:100px;
+	margin-top:80px;
+	background-color:#FFF;/*白色*/
+	font-size:20px;
+	float:left;
+	border-right:1px solid #E6E9EB;/*右边的方框线*/
+	border-radius:5px;
+	}
+.main-left-text{ font-size:22px;
+	font:'黑体';}
+.main-left1{
+	/*background-color:#42A0CE;中间左边部分第一个标题框*/
+	height:30px;
+	margin:10px;/*元素边框与周围的距离*/
+}
+/*中间左边第一个内容大框*/	
+.main-left2{ 
+	min-height:400px;
+	/*background-color:#6FF;荧光蓝色*/
+	margin:12px;
+	}
+
+hr{ width:97%;
+	margin:12px;
+	color:#f60;/*黄色*/
+	}
+	
+
+
+
+/*期刊正文部分*/
+#p_charts .chart_artsit {
+    width: 440px;
+    float: left;
+}
+.chart_artsit_item{
+    display: flex;
+    justify-content: space-between;
+}
+.chart_artsit_item a.ico_radio {
+    font-size: 14px;
+    background:url(../images/fm_sprite.gif) 0 3px no-repeat;
+    padding-left: 20px;
+    position: absolute;
+    top: 20px;
+    left:70px;
+    line-height: 1.4;
+}
+.chart_artist_item a.buddy {
+    position: absolute;
+	}
+.main-left2 .chart_artsit li{ 
+	border-bottom: 1px #ebebeb solid;/*表格的下横线*/
+	}
+.main-left2 .chart_artsit_item .private_act {
+	position: absolute;
+    top: 20px;
+    right:25px;
+    line-height: 1.4;	
+}
+
+
+/*删除*/
+table.track_list td.private_act {
+    padding-left: 10px;
+    width: 5%;
+}
+a.removeIT {
+    display: block;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    background:url(../images/close.gif) 0 -26px no-repeat;
+    text-indent: -999em;
+}
+
+
+
+
+/*中间右边部分的外圈大框*/
+.main-right{ width:20%;
+	height:auto;
+	/*margin-right:80px;*/
+	float:left;
+	border-radius:5px;
+	background-color:#FFF;/*白色*/
+	margin-top:80px;}
+
+.main-right1{/*右边第一个标题框*/
+	width:90%;
+	height:auto;
+	overflow:hidden;
+	/*background-color:#009;深蓝色*/
+	border-radius:5px;/*圆角*/
+	padding-left:70px;/*元素与其边框的距离*/
+	}
+.head-img{
+	float:left;
+	border-radius:50px;
+	margin:20px;
+	padding-left: 25px;
+}	
+.main-right1 .head-img img{
+	width:150px;
+	height:150px;
+	}
+.information_name{
+	width:100%;
+	height:50px;
+	position:relative;
+	}
+.information_name p{
+	position:absolute;
+	top:10px;
+	left:100px;
+	font-size:19px;
+	}
+.bigtext {
+    font-family: 'Hiragino Sans GB','Microsoft Yahei';
+	padding: 0;
+	width:100%;
+	border-bottom:1px solid #E6E9EB;
+	font-size:18px;
+	line-height:40px;
+}
+.main-right2{ 
+	height:200px;/*右边第一个内容框*/
+	margin-top:10px;
+	width:95%;
+	/*background-color:#0F6;浅绿色*/
+	border-radius:5px;/*圆角*/
+	padding:5px;/*元素与其边框的距离*/
+	}		
+
+
+
+
+
+	
+	

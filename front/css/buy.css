@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.credit{ margin-left:30px; margin-top:16px; font-size:26px; font-weight:600; font-family:"仿宋";}
+nav{
+	float:;
+    height:40px;
+}
+nav ul {
+    float:left;
+    list-style: none; 
+}
+nav ul li {
+	padding-left: 10px;
+    display: inline;
+}
+nav ul li a:hover{ color:#000;border: none;}
+.title{ font:"仿宋"; font-size:20px; padding-left:80px; padding-top:20px;}
+.titleimg{ margin-bottom:4px; margin-left:8px; margin-right:8px;}
+.paixu { border:none; font:"楷体"; font-size:18px; background-color:#FFF;}
+.div{ width:280px; height:305px; float:left;}
+.td1{ height:250px; width:280px; box-shadow: 2px 1px 1px #888888;}
+.td2{ height:45px; width:280px; text-align:center; font-size:20px;}
+.td3{ height:10px; width:280px; text-align:center; color:#F00; font-family:"仿宋"; font-size:24px;}
+body { background-color:rgb(245,245,245);}
+.body{ background-color:#FFF;margin-top:80px; margin-bottom:80px; margin-left:120px; margin-right:120px;border: 1px solid #CFD4D7; }
+.main{ width:22%;
+	height:300px;
+	font-size:12px;
+	margin-left:26px;
+	overflow:hidden;
+	float:left;/*使图片横排排列*/
+	}	
+	
+.main-picture{ width:240px;
+	height:230px;
+	overflow:hidden;
+	border:1px solid #CCC;
+	}
+.main-text{
+	height:20%;
+	font: 12px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	}
+.music-name{ 
+	margin-top:10px;
+	font:"隶书";
+	font-size:16px;
+	color:#000;
+	text-align:center;
+	}
+.music-jiage{ 
+	font-size:17px;
+	text-align:center;
+	color:#F00;}
+.main-picture img{
+	width:240px;
+	height:230px;}
+*{margin:0;padding:0;}
+.page,.content{margin:10px auto;text-align:left;width:700px;}
+.page a,.page span{padding:3px 8px;margin-left:6px;line-height:20px;background:#f9f9f9;border:1px solid #dbdbdb;text-decoration:none;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px;color:#333}
+.page a:hover,.page span.cur{background-color:#3F6;color:#fff;border:1px solid #f60;cursor:pointer}
+.page span.tip{margin-left:10px;border:0 none; background:none;}
+.content{width:100%;}
+
